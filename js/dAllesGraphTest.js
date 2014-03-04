@@ -10,6 +10,7 @@ function generateFibonacci(start,end){
 	for(var i = 2; i<=end; i++)
 	{
 	    fib[i] = fib[i-2] + fib[i-1];
+	    console.log(fib[i]);
 	}
 }
 
