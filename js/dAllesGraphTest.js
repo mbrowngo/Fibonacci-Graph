@@ -7,10 +7,14 @@ var screenWidth = window.innerWidth - 100;
 function generateFibonacci(start,end){ 
 	fib[0] = start;
 	fib[1] = 1;
+	
+	console.log(fib[0]);
+	console.log(fib[1]); // the console log below doesn't log the initial numnbers so added this.
+	
 	for(var i = 2; i<=end; i++)
 	{
 	    fib[i] = fib[i-2] + fib[i-1];
-	    console.log(fib[i]);
+	    console.log(fib[i]);  // added log of the numbers as part of the coding test requirement
 	}
 }
 
